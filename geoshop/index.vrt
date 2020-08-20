@@ -1,0 +1,372 @@
+<VRTDataset rasterXSize="44612" rasterYSize="69349">
+  <SRS>PROJCS["WGS 84 / Pseudo-Mercator",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Mercator_1SP"],PARAMETER["central_meridian",0],PARAMETER["scale_factor",1],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["X",EAST],AXIS["Y",NORTH],EXTENSION["PROJ4","+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"],AUTHORITY["EPSG","3857"]]</SRS>
+  <GeoTransform>  1.9036709900089982e+06,  2.3464751444583595e-01,  0.0000000000000000e+00,  5.8888501916972855e+06,  0.0000000000000000e+00, -2.3464751445505330e-01</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">136.64387268666</MDI>
+      <MDI key="STATISTICS_MINIMUM">1</MDI>
+      <MDI key="STATISTICS_STDDEV">44.556044999135</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">66.78</MDI>
+    </Metadata>
+    <NoDataValue>0</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2633.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="16493" RasterYSize="16679" DataType="Byte" BlockXSize="16493" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16493" ySize="16679" />
+      <DstRect xOff="27878.6990306892" yOff="36078.4527314258" xSize="16733.7956765863" ySize="16922.9752818748" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2634.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="16346" RasterYSize="16410" DataType="Byte" BlockXSize="16346" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16346" ySize="16410" />
+      <DstRect xOff="24166.0140648034" yOff="35762.8340632889" xSize="16700.8976406398" ySize="16765.9449538064" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2635.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="16409" RasterYSize="16507" DataType="Byte" BlockXSize="16409" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16409" ySize="16507" />
+      <DstRect xOff="20538.2677094277" yOff="36180.1791942256" xSize="16546.8518756299" ySize="16646.2323674036" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2636.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="16420" RasterYSize="16666" DataType="Byte" BlockXSize="16420" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16420" ySize="16666" />
+      <DstRect xOff="16144.8801135742" yOff="36163.4524875041" xSize="16985.0582476285" ySize="17239.5796000734" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2637.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="16524" RasterYSize="16570" DataType="Byte" BlockXSize="16524" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16524" ySize="16570" />
+      <DstRect xOff="12557.8036573736" yOff="36384.577570475" xSize="16733.2633101291" ySize="16780.0042691119" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2638.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="16161" RasterYSize="16277" DataType="Byte" BlockXSize="16161" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16161" ySize="16277" />
+      <DstRect xOff="9156.0925460802" yOff="36535.5142029556" xSize="16484.7279961454" ySize="16602.9586309398" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2640.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="16220" RasterYSize="16459" DataType="Byte" BlockXSize="16220" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16220" ySize="16459" />
+      <DstRect xOff="2659.43968060017" yOff="36422.587645752" xSize="16395.5804038317" ySize="16637.8796216415" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2674.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="16460" RasterYSize="16542" DataType="Byte" BlockXSize="16460" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16460" ySize="16542" />
+      <DstRect xOff="17689.2305316222" yOff="28718.482370646" xSize="17047.3842812146" ySize="17132.9635196311" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2700.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="16558" RasterYSize="16637" DataType="Byte" BlockXSize="16558" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16558" ySize="16637" />
+      <DstRect xOff="2870.86628407388" yOff="89.2628489286728" xSize="16747.6191348295" ySize="16827.5218979669" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2702.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="16551" RasterYSize="16734" DataType="Byte" BlockXSize="16551" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16551" ySize="16734" />
+      <DstRect xOff="9409.96047495643" yOff="0" xSize="16595.1377608953" ySize="16778.6015955636" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2708.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="16655" RasterYSize="16755" DataType="Byte" BlockXSize="16655" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16655" ySize="16755" />
+      <DstRect xOff="17068.8482345635" yOff="20972.3998130504" xSize="16811.0542800274" ySize="16911.7192758041" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2710.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="16888" RasterYSize="17210" DataType="Byte" BlockXSize="16888" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16888" ySize="17210" />
+      <DstRect xOff="9736.2272147418" yOff="20491.6970153213" xSize="17297.4706095022" ySize="17628.106365868" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2711.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17114" RasterYSize="17270" DataType="Byte" BlockXSize="17114" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="17114" ySize="17270" />
+      <DstRect xOff="6242.63700789876" yOff="20759.8207012146" xSize="17298.7750732401" ySize="17456.1956757548" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2731.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="16526" RasterYSize="16645" DataType="Byte" BlockXSize="16526" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16526" ySize="16645" />
+      <DstRect xOff="0" yOff="15465.6696549395" xSize="16586.683723765" ySize="16706.3814448879" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2734.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="16218" RasterYSize="16395" DataType="Byte" BlockXSize="16218" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16218" ySize="16395" />
+      <DstRect xOff="9050.56637291265" yOff="14800.6648371377" xSize="16815.4574602222" ySize="16999.3242913351" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2735.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="16053" RasterYSize="16219" DataType="Byte" BlockXSize="16053" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16053" ySize="16219" />
+      <DstRect xOff="12511.9673292891" yOff="15528.3064413504" xSize="16433.1497795732" ySize="16603.089280878" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2736.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="16625" RasterYSize="16727" DataType="Byte" BlockXSize="16625" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16625" ySize="16727" />
+      <DstRect xOff="15337.8478780822" yOff="15128.4911387077" xSize="17200.8549304215" ySize="17306.4896623643" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2792.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="16436" RasterYSize="16595" DataType="Byte" BlockXSize="16436" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16436" ySize="16595" />
+      <DstRect xOff="12841.5449360788" yOff="44852.2323439839" xSize="16741.3535819776" ySize="16904.048952137" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2793.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="16748" RasterYSize="16748" DataType="Byte" BlockXSize="16748" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16748" ySize="16748" />
+      <DstRect xOff="15845.5030777053" yOff="44325.6322641925" xSize="17400.8723530353" ySize="17400.8723531913" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2794.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="16318" RasterYSize="16318" DataType="Byte" BlockXSize="16318" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16318" ySize="16318" />
+      <DstRect xOff="20204.2078527903" yOff="44539.5800603125" xSize="16318" ySize="16318" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2796.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="16145" RasterYSize="16274" DataType="Byte" BlockXSize="16145" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16145" ySize="16274" />
+      <DstRect xOff="26692.0873708422" yOff="44342.9776515055" xSize="16405.3788487623" ySize="16536.4471237398" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2851.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="16968" RasterYSize="16936" DataType="Byte" BlockXSize="16968" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16968" ySize="16936" />
+      <DstRect xOff="18374.5793001612" yOff="51979.6301865169" xSize="17402.8543126276" ySize="17369.7690418519" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="2">
+    <NoDataValue>0</NoDataValue>
+    <ColorInterp>Alpha</ColorInterp>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2633.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="16493" RasterYSize="16679" DataType="Byte" BlockXSize="16493" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16493" ySize="16679" />
+      <DstRect xOff="27878.6990306892" yOff="36078.4527314258" xSize="16733.7956765863" ySize="16922.9752818748" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2634.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="16346" RasterYSize="16410" DataType="Byte" BlockXSize="16346" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16346" ySize="16410" />
+      <DstRect xOff="24166.0140648034" yOff="35762.8340632889" xSize="16700.8976406398" ySize="16765.9449538064" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2635.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="16409" RasterYSize="16507" DataType="Byte" BlockXSize="16409" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16409" ySize="16507" />
+      <DstRect xOff="20538.2677094277" yOff="36180.1791942256" xSize="16546.8518756299" ySize="16646.2323674036" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2636.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="16420" RasterYSize="16666" DataType="Byte" BlockXSize="16420" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16420" ySize="16666" />
+      <DstRect xOff="16144.8801135742" yOff="36163.4524875041" xSize="16985.0582476285" ySize="17239.5796000734" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2637.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="16524" RasterYSize="16570" DataType="Byte" BlockXSize="16524" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16524" ySize="16570" />
+      <DstRect xOff="12557.8036573736" yOff="36384.577570475" xSize="16733.2633101291" ySize="16780.0042691119" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2638.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="16161" RasterYSize="16277" DataType="Byte" BlockXSize="16161" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16161" ySize="16277" />
+      <DstRect xOff="9156.0925460802" yOff="36535.5142029556" xSize="16484.7279961454" ySize="16602.9586309398" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2640.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="16220" RasterYSize="16459" DataType="Byte" BlockXSize="16220" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16220" ySize="16459" />
+      <DstRect xOff="2659.43968060017" yOff="36422.587645752" xSize="16395.5804038317" ySize="16637.8796216415" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2674.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="16460" RasterYSize="16542" DataType="Byte" BlockXSize="16460" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16460" ySize="16542" />
+      <DstRect xOff="17689.2305316222" yOff="28718.482370646" xSize="17047.3842812146" ySize="17132.9635196311" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2700.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="16558" RasterYSize="16637" DataType="Byte" BlockXSize="16558" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16558" ySize="16637" />
+      <DstRect xOff="2870.86628407388" yOff="89.2628489286728" xSize="16747.6191348295" ySize="16827.5218979669" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2702.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="16551" RasterYSize="16734" DataType="Byte" BlockXSize="16551" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16551" ySize="16734" />
+      <DstRect xOff="9409.96047495643" yOff="0" xSize="16595.1377608953" ySize="16778.6015955636" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2708.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="16655" RasterYSize="16755" DataType="Byte" BlockXSize="16655" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16655" ySize="16755" />
+      <DstRect xOff="17068.8482345635" yOff="20972.3998130504" xSize="16811.0542800274" ySize="16911.7192758041" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2710.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="16888" RasterYSize="17210" DataType="Byte" BlockXSize="16888" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16888" ySize="17210" />
+      <DstRect xOff="9736.2272147418" yOff="20491.6970153213" xSize="17297.4706095022" ySize="17628.106365868" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2711.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17114" RasterYSize="17270" DataType="Byte" BlockXSize="17114" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="17114" ySize="17270" />
+      <DstRect xOff="6242.63700789876" yOff="20759.8207012146" xSize="17298.7750732401" ySize="17456.1956757548" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2731.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="16526" RasterYSize="16645" DataType="Byte" BlockXSize="16526" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16526" ySize="16645" />
+      <DstRect xOff="0" yOff="15465.6696549395" xSize="16586.683723765" ySize="16706.3814448879" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2734.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="16218" RasterYSize="16395" DataType="Byte" BlockXSize="16218" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16218" ySize="16395" />
+      <DstRect xOff="9050.56637291265" yOff="14800.6648371377" xSize="16815.4574602222" ySize="16999.3242913351" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2735.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="16053" RasterYSize="16219" DataType="Byte" BlockXSize="16053" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16053" ySize="16219" />
+      <DstRect xOff="12511.9673292891" yOff="15528.3064413504" xSize="16433.1497795732" ySize="16603.089280878" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2736.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="16625" RasterYSize="16727" DataType="Byte" BlockXSize="16625" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16625" ySize="16727" />
+      <DstRect xOff="15337.8478780822" yOff="15128.4911387077" xSize="17200.8549304215" ySize="17306.4896623643" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2792.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="16436" RasterYSize="16595" DataType="Byte" BlockXSize="16436" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16436" ySize="16595" />
+      <DstRect xOff="12841.5449360788" yOff="44852.2323439839" xSize="16741.3535819776" ySize="16904.048952137" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2793.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="16748" RasterYSize="16748" DataType="Byte" BlockXSize="16748" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16748" ySize="16748" />
+      <DstRect xOff="15845.5030777053" yOff="44325.6322641925" xSize="17400.8723530353" ySize="17400.8723531913" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2794.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="16318" RasterYSize="16318" DataType="Byte" BlockXSize="16318" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16318" ySize="16318" />
+      <DstRect xOff="20204.2078527903" yOff="44539.5800603125" xSize="16318" ySize="16318" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2796.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="16145" RasterYSize="16274" DataType="Byte" BlockXSize="16145" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16145" ySize="16274" />
+      <DstRect xOff="26692.0873708422" yOff="44342.9776515055" xSize="16405.3788487623" ySize="16536.4471237398" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/balazs/Code/kis-balaton/megvagott/1965_0354_2851.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="16968" RasterYSize="16936" DataType="Byte" BlockXSize="16968" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="16968" ySize="16936" />
+      <DstRect xOff="18374.5793001612" yOff="51979.6301865169" xSize="17402.8543126276" ySize="17369.7690418519" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
